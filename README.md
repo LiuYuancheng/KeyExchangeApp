@@ -50,3 +50,7 @@ link: https://cloudwafer.com/blog/installing-openssl-on-ubuntu-16-04-18-04/
 
 cd /usr/local/src/
 wget https://www.openssl.org/source/openssl-3.0.0-alpha1.tar.gz
+
+https://drive.google.com/file/d/1cFqExn21dKB7fZWrV7_q3faEqQQXCZ4o/view
+
+
