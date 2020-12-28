@@ -1,0 +1,17 @@
+#ifndef CM_crypto_kem_H
+#define CM_crypto_kem_H
+
+#include "crypto_kem_mceliece6960119.h"
+
+#define CM_crypto_kem_keypair crypto_kem_mceliece6960119_keypair
+#define CM_crypto_kem_enc crypto_kem_mceliece6960119_enc
+#define CM_crypto_kem_dec crypto_kem_mceliece6960119_dec
+#define CM_crypto_kem_PUBLICKEYBYTES crypto_kem_mceliece6960119_PUBLICKEYBYTES
+#define CM_crypto_kem_SECRETKEYBYTES crypto_kem_mceliece6960119_SECRETKEYBYTES
+#define CM_crypto_kem_BYTES crypto_kem_mceliece6960119_BYTES
+#define CM_crypto_kem_CIPHERTEXTBYTES crypto_kem_mceliece6960119_CIPHERTEXTBYTES
+#define CM_crypto_kem_PRIMITIVE "mceliece6960119"
+
+#define CM_CRYPTO_ALGNAME "mceliece6960119"
+
+#endif

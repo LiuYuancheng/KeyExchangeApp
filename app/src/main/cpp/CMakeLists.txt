@@ -17,7 +17,25 @@ add_library( # Sets the name of the library.
              SHARED
 
              # Provides a relative path to your source file(s).
-             native-lib.cpp )
+             native-lib.cpp
+        )
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+# Local header files here ONLY
+SET(TARGET_H
+        ${CMAKE_SOURCE_DIR}/generic_service/CKeGateWay.h
+        )
+
+# Local source files here
+SET(TARGET_SRC
+        ${CMAKE_SOURCE_DIR}/generic_service/CKeGateWay.cpp
+        )
+
+include_directories(${CMAKE_SOURCE_DIR}/lib)
+
+file(GLOB_RECURSE cppfiles "${CMAKE_SOURCE_DIR}/generic_service/*.cpp")
+#include_directories($/usr/local/ssl/include)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by

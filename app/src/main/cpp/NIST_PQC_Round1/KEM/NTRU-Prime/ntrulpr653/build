@@ -1,0 +1,2 @@
+#!/bin/sh
+gcc -O3 -march=native -mtune=native -Wall -I. -DKAT -DKATNUM=`cat KATNUM` -o kat nist/kat_kem.c nist/rng.c aes256ctr.c Decode.c Encode.c int32.c kem.c sha512.c uint32.c uint32_sort.c     -lcrypto -ldl 

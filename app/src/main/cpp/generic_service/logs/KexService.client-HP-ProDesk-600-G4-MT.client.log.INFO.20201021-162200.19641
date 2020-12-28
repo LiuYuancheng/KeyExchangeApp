@@ -1,0 +1,6 @@
+Log file created at: 2020/10/21 16:22:00
+Running on machine: client-HP-ProDesk-600-G4-MT
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20201021 16:22:00.900488 19641 CKeGateWay.cpp:183] presetting ...
+I20201021 16:22:09.723167 19642 CKeGateWay.cpp:180] SessionID: e9dc7b7394f62da59f1a657a7fd8b68a17f6089afad7f4dea0e3c5b458f2b047
+E20201021 16:22:12.144762 19641 CKeGateWay.cpp:215] retrying aborted, cannot connect to 46e269d10519d23b42c262867907b1f6a3f44de65f156e05a877e3d1fe62a52b (118.201.197.202:9099)

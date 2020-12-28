@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+/usr/bin/clang++  -O3 -march=native -mtune=native -Wall -I. -DKAT -DKATNUM=`cat KATNUM` -o kat  rng.c benes.c bm.c controlbits.c decrypt.c encrypt.c gf.c operations.c pk_gen.c root.c sk_gen.c synd.c transpose.c util.c crypto_stream_aes256ctr.c  -L/usr/local/lib -lkeccak -lcrypto -ldl 
+
+
