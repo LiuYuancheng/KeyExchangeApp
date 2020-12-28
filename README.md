@@ -54,3 +54,11 @@ wget https://www.openssl.org/source/openssl-3.0.0-alpha1.tar.gz
 https://drive.google.com/file/d/1cFqExn21dKB7fZWrV7_q3faEqQQXCZ4o/view
 
 
+
+error message : 
+
+C:/Works/SingtelTw/QSG_Project/KeyExchangeApp/KeyExchangeApp/app/src/main/cpp/native-lib.cpp:112: error: undefined reference to 'CKeGateWay::ShareWith(char*, char*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&)'
+
+
+
+https://stackoverflow.com/questions/22159183/android-ndk-jni-undefined-reference-to-function-defined-in-custom-header-fil
